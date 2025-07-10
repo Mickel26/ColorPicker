@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Expo files
+.expo/
+.expo-shared/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-debug.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Build output
+/dist
+/build
+*.apk
+*.ipa
+
+# Misc
+*.log
+*.tmp
+*.swp
+
+# React Native specific
+android/app/build/
+ios/Pods/
+ios/build/
+
+# Babel
+babel.config.js
+
+# Cache
+*.cache
+metro-cache/
