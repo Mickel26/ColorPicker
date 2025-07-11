@@ -13,7 +13,7 @@
 
 ## 🚧 Upcoming
 
-- Persistent storage for favorite colors 
+- Persistent storage for favorite colors
 - Color palette generation
 - Export/share palettes
 
