@@ -17,7 +17,7 @@ const AdvancedColorPicker = () => {
       />
       <View className="items-center mt-8">
         <TouchableOpacity
-          className="w-48 h-16 mt-2 rounded-xl flex items-center justify-center border border-gray-100"
+          className="w-48 h-16 mt-2 rounded-xl flex items-center justify-center border border-gray-300"
           style={{
             backgroundColor: '#FFFFFF',
             shadowColor: selectedColor,
@@ -30,7 +30,7 @@ const AdvancedColorPicker = () => {
 
           }}
         >
-          <Text className="text-black font-semibold text-center" style={{ color: selectedColor }}>
+          <Text className="text-black font-semibold text-center">
             Select
           </Text>
         </TouchableOpacity>
