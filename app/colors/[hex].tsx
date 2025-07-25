@@ -70,7 +70,7 @@ const ColorPage = () => {
   const color2 = `rgb(${color2Rgb[0]}, ${color2Rgb[1]}, ${color2Rgb[2]})`;
 
   return (
-    <View className="flex-1 items-center p-10">
+    <View className="flex-1 items-center p-10 pt-24">
       <View
         className="w-64 h-64 rounded-3xl mb-8 border-2 border-gray-200"
         style={{ backgroundColor: colorValue }}
