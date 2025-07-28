@@ -1,4 +1,4 @@
-import AdvancedColorPicker from "@/components/AdvancedColorPicker";
+import SimpleColorPicker from "@/components/SimpleColorPicker";
 import { useRouter } from "expo-router";
 import { View } from "react-native";
 
@@ -15,7 +15,8 @@ export default function Index() {
 
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <AdvancedColorPicker onColorSelect={handleColorSelect} />
+      {/* <AdvancedColorPicker onColorSelect={handleColorSelect} /> */}
+      <SimpleColorPicker onColorSelect={handleColorSelect} />
     </View>
   );
 }
